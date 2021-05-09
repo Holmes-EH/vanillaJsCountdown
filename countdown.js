@@ -19,7 +19,7 @@ function countdown() {
 		document.getElementById('numberOfMinutes').innerHTML = numberOfMinutes
 		document.getElementById('numberOfSeconds').innerHTML = numberOfSeconds
 	} else {
-		document.getElementById('counter').innerHTML = ''
+		document.getElementById('fullCounter').innerHTML = ''
 		document.getElementById('title').innerHTML = '<h1>On est ouvert !</h1>'
 	}
 }
