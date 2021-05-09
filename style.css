@@ -21,19 +21,27 @@ h1 {
 }
 
 .counter_container {
+	color: white;
+	width: 960px;
+	height: 270px;
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
 	text-align: center;
+	position: relative;
+	background: linear-gradient(
+			to bottom right,
+			rgba(0, 0, 0, 0),
+			rgba(0, 0, 0, 1)
+		),
+		url('rob-laughter-WW1jsInXgwM-unsplash.jpg');
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
 }
 .numbers {
 	font-size: 2em;
 	font-weight: 900;
-}
-img {
-	width: 960px;
-	height: 270px;
-	object-fit: cover;
-	max-width: 100%;
 }
 figcaption {
 	padding: 1em;
